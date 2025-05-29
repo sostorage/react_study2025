@@ -1,0 +1,28 @@
+ .container{
+    
+    display: flex;    
+    /* margin: 10px; */
+    gap: 20px;
+    
+    }
+
+.teamInfo{
+     
+    width: 100px;
+    height: 150px;
+    
+    background-color: rgba(135, 206, 235, 0.2);
+    border: 1px solid rgb(135, 206, 235);
+    border-radius: 10%;
+
+    display: flex;
+    float: left;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.teamInfo > p {
+    margin: 0;
+}

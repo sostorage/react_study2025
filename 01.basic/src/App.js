@@ -44,6 +44,7 @@ function App() {
 
   // 화면에 보여줄 HTML을 구성
   // 부모 요소는 반드시 하나
+  // 화면에 결과값들을 보여주기 위해 사용
   return (
     <div style={styled}>
       <div className="App">
