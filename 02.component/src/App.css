@@ -26,3 +26,15 @@
 .teamInfo > p {
     margin: 0;
 }
+
+.likeBox{
+
+    border: 4px solid black;
+    display: inline-block;
+    padding: 15px;
+    text-align: center;
+}
+
+.likeText{
+    font-size: 25px;
+}
