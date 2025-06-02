@@ -1,0 +1,20 @@
+
+
+.container{
+    width: 500px;
+    border : 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+
+    display: flex;
+    /* 축의 기준을 세로로 지정한다 */
+    flex-direction: column; 
+    /* 축을 기준으로 중앙 맞추기 */
+    justify-content: center;
+    /* 크로스축에 대한 정렬 */
+    align-items: center;
+}
+.board-area{
+    display: flex;
+    text-align: center;
+}
