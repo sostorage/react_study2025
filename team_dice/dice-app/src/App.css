@@ -1,0 +1,17 @@
+.container{
+    width: 500;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.board-area{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}

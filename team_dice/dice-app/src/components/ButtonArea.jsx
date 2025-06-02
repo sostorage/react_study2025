@@ -1,10 +1,10 @@
 import React from 'react'
 
-const ButtonArea = () => {
+const ButtonArea = ({throwDice, initDice}) => {
   return (
     <div>
-        <button>던지기</button>
-        <button>RESET</button>
+        <button onClick={()=>throwDice()}>던지기</button>
+        <button onClick={()=>initDice()}>RESET</button>
     </div>
   )
 }

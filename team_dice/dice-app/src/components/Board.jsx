@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Board = () => {
+const Board = ({name, data}) => {
   return (
-    <div>
-        <h4>나</h4>
-        <img src={""} />
+    <div >
+        <h4>{name}</h4>
+        <img src={data.imgPath} />
         <div>
             <p>현재 점수는?</p>
-            <p>0</p>
+            <p>{data.score}</p>
         </div>
     </div>
   )
