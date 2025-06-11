@@ -1,0 +1,25 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+import Count from './components/Count'
+import ChamChamCham from './components/ChamChamCham'
+import Weather from './components/Weather'
+
+function App() {
+
+  return (
+    <>
+    {/* useEffect 실습 */}
+    {/* <Count/> */}
+
+    {/* useEffect 실습2 */}
+    {/* <ChamChamCham/> */}
+
+    {/* useEffect 실습3 */}
+    <Weather/>
+    </>
+  )
+}
+
+export default App

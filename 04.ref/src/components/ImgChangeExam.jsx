@@ -15,7 +15,7 @@ const ImgChangeExam = () => {
         } else if(imgName.current.value === '고양이'){
              imgSrc.current.src = 'https://mblogthumb-phinf.pstatic.net/MjAyMzA4MDRfMjI5/MDAxNjkxMTMxNDU3MDc0.PP3HocRLVBtEgiCS2I1zvjYKx7HbgK0AJXC56JX_yZsg.UysNGMsO7AmA2IohOE-qQd5lpXFB6spF6mT2AXKh4zwg.JPEG.vipah/SE-b58be53b-5392-45d7-a6b5-3eb467376a36.jpg?type=w800'
         } else {
-            alert('불가능!')
+            alert('소정이 바보!')
         }
 
         // 입력창의 내용을 초기화하고 해당 요소를 선택(focus)하는 기능
@@ -30,7 +30,7 @@ const ImgChangeExam = () => {
             <input type="text" ref={imgName}/>
             <input type="submit" value="변경" onClick={imgChng}/>
         </form>
-        <img src={imgSrc} style={{width: 300}}/>
+        <img ref={imgSrc} style={{width: 300}}/>
 
     </div>
   )
