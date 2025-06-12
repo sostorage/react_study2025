@@ -14,23 +14,28 @@ const Weather = () => {
   // const [cityName, setCityName] = useState();
   // const [temp, setTemp] = useState();
   // const [icon, setIcon] = useState();
-  const [weather, setWeather] = useState();
+  
+  // 객체 형태로 받으려면 useState(""); null 말고 ""로 받기!
+  const [weather, setWeather] = useState("");
+  
   const today = new Date();
 
   // console.log(today);
   
-    
-  const getWeatherData = async() => {
-    let res = axios.get(WEATHER_URL);
-    let data = res.data;
   
+  
+  const getWeatherData = async() => {
+    let res = await axios.get(WEATHER_URL);
+    let data = res.data;
+    
     setWeather({
       city:data.name,
       temp:data.main.temp,
       icon:data.weather[0].icon
-    }); 
+    })
   }
-    
+  
+  console.log(weather);
   // const getWeatherData = () => {
   //   axios.get(WEATHER_URL)
   //   .then((res)=>res.data)

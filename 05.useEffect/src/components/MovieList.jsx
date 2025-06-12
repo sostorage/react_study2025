@@ -10,6 +10,8 @@ const MovieList = () => {
 
   const getMovieList = async() => {
         let res = await axios.get(MOVIE_URL);
+        console.log(res.data);
+        
          movies = res.data.boxOfficeResult.dailyBoxOfficeList.map((mv)=>({
             rank: mv.rank,
             movieNm: mv.movieNm,
