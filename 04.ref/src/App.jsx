@@ -17,7 +17,7 @@ function App() {
     {/* <LoginForm/> */}
 
     {/* Ref 실습3 */}
-    <ImgChangeExam/>
+    {/* <ImgChangeExam/> */}
     </>
   )
 }

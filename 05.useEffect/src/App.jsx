@@ -5,6 +5,7 @@ import './App.css'
 import Count from './components/Count'
 import ChamChamCham from './components/ChamChamCham'
 import Weather from './components/Weather'
+import MovieList from './components/MovieList'
 
 function App() {
 
@@ -17,7 +18,10 @@ function App() {
     {/* <ChamChamCham/> */}
 
     {/* useEffect 실습3 */}
-    <Weather/>
+    {/* <Weather/> */}
+    
+    {/* useEffect 실습4 */}
+    <MovieList/>
     </>
   )
 }

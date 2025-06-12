@@ -55,7 +55,7 @@ useEffect(()=> {
     // }
 
     user === com ? setResult("사용자의 승리!"): setResult("컴퓨터의 승리...........");
-})
+}, [user, com])
 
   return (
     <div>
